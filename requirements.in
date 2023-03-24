@@ -1,0 +1,10 @@
+# Direct project dependencies go in this requirements.in file
+# then run;
+# > pip-compile requirements.in to autogenerate a requirements.txt file with fully specified versions of indirect dependencies
+# Assumes you have a pre-existing virtual enviroment (maybe your conda base environment) that has piptools package installed
+
+joblib==1.2.0
+matplotlib==3.6.0
+numpy==1.23.3
+pandas==1.5.0
+scikit-learn==1.1.2
